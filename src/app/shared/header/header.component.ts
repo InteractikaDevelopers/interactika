@@ -1,6 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { VistaService } from '../services/vista.service';
-import * as $ from 'jquery';
 
 
 @Component({
@@ -11,13 +9,11 @@ import * as $ from 'jquery';
 export class HeaderComponent implements OnInit {
 
 
-  constructor( public vistaS : VistaService) { }
+  constructor() {
+    
+   }
 
   ngOnInit() {
-  }
-
-  scrollTop(){
-    $("html, body").animate({ scrollTop: 0 }, "slow");
   }
 
 }
