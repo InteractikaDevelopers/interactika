@@ -8,6 +8,7 @@ import { HttpModule, Http } from '@angular/http';
 import { BrowserModule } from '@angular/platform-browser';
 // MODULOS
 import { SharedModule } from '../shared/shared.module';
+
 // RUTAS
 import { PAGES_ROUTES } from './pages.routes';
 // COMPONENTES
@@ -21,8 +22,7 @@ import { HomeComponent } from './home/home.component';
    declarations: [
         PagesComponent,
         HomeComponent
-        
- ],
+    ],
     exports: [
          HomeComponent,
      ],
@@ -32,7 +32,7 @@ import { HomeComponent } from './home/home.component';
          CommonModule,
          PAGES_ROUTES,
          FormsModule,
-         HttpModule
+         HttpModule,
      ],
      providers:[
     ],
