@@ -24,6 +24,31 @@
     word-wrap: break-word;
 }
 
+.img-center {
+    margin: auto !important;
+    display: block !important;
+}
+
+.pointer {
+    cursor: pointer !important;
+}
+
+.p-nav {
+    padding-top: 5rem !important;
+}
+
+
+/*----------------------------------------------FONTS-----------------------------------------------*/
+
+@font-face {
+    font-family: Harabara;
+    src: url(./fonts/Harabara.otf);
+}
+
+.harabara {
+    font-family: Harabara !important;
+}
+
 
 /*---------------------------------------------COLORS-------------------------------------------------*/
 

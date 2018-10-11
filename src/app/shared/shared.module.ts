@@ -12,6 +12,8 @@ import { BrowserModule } from '@angular/platform-browser';
 
 // SERVICIOS
 import { VistaService } from './services/vista.service';
+import { AnimationService } from './services/animation.service';
+
 
 // COMPONENTES
 import { HeaderComponent } from './header/header.component';
@@ -39,7 +41,8 @@ import { FooterComponent } from './footer/footer.component';
         HttpClientModule
      ],
      providers:[
-        VistaService
+        VistaService,
+        AnimationService
      ]
 })
 

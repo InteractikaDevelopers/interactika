@@ -15,13 +15,15 @@ import { PAGES_ROUTES } from './pages.routes';
 import { PagesComponent } from './pages.component';
     
 import { HomeComponent } from './home/home.component';
+import { ContactoComponent } from './contacto/contacto.component';
 
 
 
 @NgModule({
    declarations: [
         PagesComponent,
-        HomeComponent
+        HomeComponent,
+        ContactoComponent
     ],
     exports: [
          HomeComponent,

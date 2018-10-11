@@ -2,20 +2,20 @@ import { Component, OnInit } from '@angular/core';
 import { AnimationService } from '../../shared/services/animation.service';
 
 @Component({
-  selector: 'app-home',
-  templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css']
+  selector: 'app-contacto',
+  templateUrl: './contacto.component.html',
+  styleUrls: ['./contacto.component.css']
 })
-export class HomeComponent implements OnInit {
+export class ContactoComponent implements OnInit {
 
-  constructor(
+  constructor( 
     private animationScroll: AnimationService
-  ) {
-   }
-
-  ngOnInit() {
+    ) { 
+    
   }
 
-  
+  ngOnInit() {
+    
+  }
 
 }
